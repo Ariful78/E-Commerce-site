@@ -20,3 +20,35 @@
     font-size: 2rem;
     letter-spacing: 1px;
 }
+.searchArea{
+   position: fixed;
+   right: 90px;
+   top: 50px;
+   width: 170px;
+   height: 45px;
+   background-color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+   border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+   border: 1px solid rgba(44, 44, 44, 0.1);
+   box-sizing: border-box;
+   z-index: 1;
+}
+.searchBox input{
+    width: 90px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #1f1f1f;
+    padding: 0px 10px;
+    font-size: 1rem;
+}
+.searchBox input::placeholder{
+    color: #1d1d1d;
+    font-weight: 400;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
